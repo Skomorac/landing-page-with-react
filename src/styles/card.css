@@ -1,0 +1,21 @@
+/* card.css */
+.cardButton {
+  height: 2.5em; /* Set a default height using relative units */
+  font-size: 0.5em; /* Set a default font size using relative units */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  /* Adjust for larger screens */
+  .cardButton {
+    height: 2em;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
