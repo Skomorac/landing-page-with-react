@@ -14,7 +14,7 @@ const Card = ({ imageUrl, title, text, btnText }) => {
       />
       <div className="card-body p-0">
         <h5 className="card-title mt-3">{title}</h5>
-        <p className="card-text">{text}</p>
+        <p className="card-text px-2">{text}</p>
         <div class="card-footer">
           <a href="#" className="btn btn-primary cardButton">
             {btnText || "Go somewhere"}
