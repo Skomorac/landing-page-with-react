@@ -6,7 +6,6 @@ import Navbar from "./navbar";
 import MainPage from "./MainPage";
 import Footer from "./footer";
 
-//create your first component
 const Home = () => {
   return (
     <div>
