@@ -13,7 +13,7 @@ const Card = ({ imageUrl, title, text, btnText }) => {
         alt="Card Placeholder"
       />
       <div className="card-body p-0">
-        <h5 className="card-title">{title}</h5>
+        <h5 className="card-title mt-3">{title}</h5>
         <p className="card-text">{text}</p>
         <div class="card-footer">
           <a href="#" className="btn btn-primary cardButton">

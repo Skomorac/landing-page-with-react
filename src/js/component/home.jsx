@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <Navbar />
       <MainPage />
-	  <Footer/>
+      <Footer />
     </div>
   );
 };

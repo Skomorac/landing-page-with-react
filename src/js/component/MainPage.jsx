@@ -6,7 +6,7 @@ const MainPage = () => {
   return (
     <div className="container" id="MainPage">
       <Jumbotron />
-      <div className="d-flex flex-nowrap justify-content-between">
+      <div className="d-flex flex-column flex-sm-row align-items-center justify-content-between">
         <Card
           imageUrl=""
           title="Card number 1"

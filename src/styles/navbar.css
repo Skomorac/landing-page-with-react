@@ -2,6 +2,10 @@
   background-color: #333;
   color: white;
   padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
 }
 
 .navbar ul {
@@ -12,4 +16,8 @@
 
 .navbar li {
   cursor: pointer;
+}
+
+body {
+  margin-top: 60px;
 }

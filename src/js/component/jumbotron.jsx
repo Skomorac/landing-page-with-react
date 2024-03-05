@@ -1,8 +1,9 @@
 import React from "react";
+import "../../styles/jumbotron.css"
 
 const Jumbotron = () => {
   return (
-    <div class="py-1 px-3 mb-4 bg-light">
+    <div class="py-1 px-3 mb-4 bg-light" id="jumbotronElmnt">
       <div class="container-fluid py-1">
         <h1 class="display-5 fw-bold">A Warm Welcome!</h1>
         <p>

@@ -1,7 +1,7 @@
-/* card.css */
+/* Existing CSS for .cardButton */
 .cardButton {
-  height: 2.5em; /* Set a default height using relative units */
-  font-size: 0.5em; /* Set a default font size using relative units */
+  height: 2.5em;
+  font-size: 0.5em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +9,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* Adjust for larger screens */
   .cardButton {
     height: 2em;
     font-size: 0.8em;
@@ -17,5 +16,18 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+}
+
+/* New CSS for small screens (less than 575px) */
+@media screen and (max-width: 575px) {
+  .card {
+    margin: 0 auto;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+
+  .cardButton {
+    height: 2.5em; /* Adjust height as needed */
+    font-size: 0.8em; /* Adjust font size as needed */
   }
 }
